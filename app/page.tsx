@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button";
-
+import GenerateImage from "@/components/generate/GenerateImage";
+import Hero from "@/components/display/Hero";
 export default function Home() {
   return (
     <div className="flex items-center justify-center m-3">
@@ -11,6 +11,11 @@ export default function Home() {
             </span>{" "}
             Image Generator
           </h1>
+        </div>
+        <GenerateImage />
+
+        <div className="relative">
+          <Hero />
         </div>
       </div>
     </div>
